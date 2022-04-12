@@ -1,0 +1,8 @@
+/demo-gauge-project.iml
+/gauge-test.iml
+.gauge
+reports
+out
+target
+logs
+env
