@@ -12,17 +12,22 @@
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
         <mvn.version>3.7.0</mvn.version>
-        <gauge.version>0.7.15</gauge.version>
-        <assert.version>3.10.0</assert.version>
+        <gauge.version>0.8.1</gauge.version>
+        <assert.version>3.22.0</assert.version>
         <selenide.version>6.4.0</selenide.version>
-        <reflections.version>0.9.10</reflections.version>
-        <lombok.version>1.18.14</lombok.version>
-        <junit.version>5.6.2</junit.version>
+        <reflections.version>0.10.2</reflections.version>
+        <lombok.version>1.18.22</lombok.version>
+        <junit.version>5.8.2</junit.version>
         <gauge.mvn.plugin.version>1.5.0</gauge.mvn.plugin.version>
-        <sfj.log.version>1.7.29</sfj.log.version>
+        <sfj.log.version>1.7.36</sfj.log.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
         <!-- Gauge dependency -->
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>

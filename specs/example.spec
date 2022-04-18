@@ -1,5 +1,12 @@
-Getting Started with Gauge
+Sign In flow for site
 ==========================
 
-This is an executable specification file. This file follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-To execute this specification, use `mvn test`
+Tags: regress
+
+Just example
+## Авторизация на сайте
+* Открыть главную страницу сайта
+* Ввод логина "standard_user"
+* Ввод пароля "secret_sauce"
+* Выполнение клика по кнопки авторизации
+* Ожидание в течение "20" секунд
